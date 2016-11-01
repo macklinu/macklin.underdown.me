@@ -11,3 +11,6 @@ deploy:
   provider: surge
   project: ./build/
   skip_cleanup: true
+branches:
+  only:
+    - master
